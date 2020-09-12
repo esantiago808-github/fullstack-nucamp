@@ -32,7 +32,7 @@ partnerRouter.route('/:partnerId')
     next();
 })
 .get((req, res) => (
-    res.end(`Will send the details of the partner: ${req.params.partnerId} to you`)
+    res.end(`Will send the details of the partners: ${req.params.partnerId} to you`)
 ))
 .post((req, res) => {
     res.statusCode = 403;
